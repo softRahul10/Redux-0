@@ -13,17 +13,5 @@ This project demonstrates the implementation of Redux Zero, a simplified state m
 - 7. Add subscriber function and link it with store
 - 8. Dispatch actions
 
-## Description
-
-This project showcases the usage of Redux Zero to manage the state in a React application. Redux Zero provides an alternative approach to Redux, aiming to reduce boilerplate and simplify the state management process.
-
-## Installation
-
-To run this project locally, follow these steps:
-
-1. Clone the repository: `git clone <repository-url>`
-2. Navigate to the project directory: `cd redux-zero-project`
-3. Install the dependencies: `npm install`
-4. Start the development server: `npm start`
 
 
