@@ -31,3 +31,15 @@ const countSubscriber = () => {
 }
 
 store.subscribe(countSubscriber);
+
+//4.  dispatch action
+
+store.dispatch({ type: 'Increment' });
+store.dispatch({ type: 'Increment' });
+store.dispatch({ type: 'Increment' });
+store.dispatch({ type: 'Increment' });
+
+store.dispatch({ type: 'Decrement' });
+store.dispatch({ type: 'Decrement' });
+store.dispatch({ type: 'Decrement' });
+store.dispatch({ type: 'Decrement' });
