@@ -23,3 +23,11 @@ const countReducer = (state = defaultState, action) => {
 
 //2. create redux store using createStore function
 const store = redux.createStore(countReducer);
+
+//3. subscribe
+const countSubscriber = () => {
+    let value = store.getState();
+    console.log(value);
+}
+
+store.subscribe(countSubscriber);
